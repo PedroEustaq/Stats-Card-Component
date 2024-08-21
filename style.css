@@ -36,7 +36,9 @@ h1 {
     width: 400px;
 }
 p#text {
-    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 400px;
     color: hsla(0, 0%, 100%, 0.6);
     line-height: 1.9em;
     font-size: 14px;
@@ -81,6 +83,9 @@ div#meu::after {
         opacity: 1; /* Ajuste a opacidade conforme necessário */
 }
 @media (max-width: 768px) {
+    body {
+        height: 110vh;
+    }
     article {
         flex-flow: column-reverse nowrap;
         align-items: center;
@@ -98,11 +103,14 @@ div#meu::after {
         text-align: center;
         font-size: 15px;
         width: 400px;
+        padding-top: 20px;
+    padding-bottom: 0px;
     }
     section {
         flex-flow: column nowrap;
         align-items: center;
     }
+
     div > h2 {
         text-align: center;
         width: auto;
