@@ -103,8 +103,6 @@ div#meu::after {
         flex-flow: column nowrap;
         align-items: center;
     }
-    section > div {
-    }
     div > h2 {
         text-align: center;
         width: auto;
